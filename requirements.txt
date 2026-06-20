@@ -1,0 +1,29 @@
+# ============================================
+# RAG Mitológico - Requirements
+# ============================================
+
+# Core RAG Framework
+langchain>=0.2.12
+langchain-community>=0.2.12
+
+# Vector Store (FAISS - sin dependencia de onnxruntime)
+faiss-cpu>=1.7.4
+
+# LLM Integration (Ollama - 100% local)
+ollama>=0.3.0
+
+# Document Processing
+pypdf>=4.0.0
+
+# API REST
+fastapi>=0.115.0
+uvicorn[standard]>=0.30.0
+pydantic>=2.6.0
+
+# Utils
+numpy>=1.26.0
+requests>=2.31.0
+
+# Development / Notebook
+jupyter>=1.0.0
+ipykernel>=6.29.5
