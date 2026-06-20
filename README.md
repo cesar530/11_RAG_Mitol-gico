@@ -90,6 +90,7 @@ curl "http://localhost:8000/ask?question=Quien%20mato%20a%20Medusa"
 
 ## 🏗️ Arquitectura
 
+```
 ┌─────────────────┐
 │   PDFs (data/)  │
 └────────┬────────┘
@@ -118,12 +119,14 @@ curl "http://localhost:8000/ask?question=Quien%20mato%20a%20Medusa"
 ┌─────────────────┐
 │   Respuesta     │  + fuentes citadas
 └─────────────────┘
+```
 
 ---
 
 ## 📁 Estructura del Proyecto
 
-```11_RAG_Mitológico/
+```
+11_RAG_Mitológico/
 ├── app/
 │   ├── proyecto_principal.py   # FastAPI server
 │   └── utils.py                # RAGConfig, load_pdfs, build_vectorstore, get_qa_chain
@@ -198,11 +201,10 @@ print(result["sources"])
 
 ---
 
-## 📝 Licencia
-
-MIT License
-
 ## 👤 Autor
 
-**Cesar Delgado**  
-Portafolio Profesional — Proyecto RAG & LLMs
+- 👤 Autor : **César Adrián Delgado Díaz**
+- 💼 LinkedIn: [linkedin.com/in/cesar-delgado-diaz](linkedin.com/in/cesar-delgado-diaz)
+- 🐙 GitHub: [github.com/tu-usuario](https://github.com/cesar530)
+
+---
